@@ -17,11 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });*/
 Route::get('/', function () {
-    return view('home');
+    $titolo='TITOLO HOME PASSATO DA VARIABILE';
+    return view('home', ["titolo"=>$titolo]);
 });
 Route::get('/articoli', function () {
     return view('articoli');
 });
 Route::get('/chiSono', function () {
-    return view('chiSono');
+    $descrizione = "Ciao mi chiamo Maicol e vengo da Modena(descrizione passata da variabile)";
+    return view('chiSono', ["descrizione"=>$descrizione]);
 });

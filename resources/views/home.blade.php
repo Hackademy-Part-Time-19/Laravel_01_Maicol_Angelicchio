@@ -8,7 +8,7 @@
 <body>
     <a href="/articoli">Articoli</a>
     <a href="/chiSono">Chi Sono</a>
-    <h1>HOME</h1>
+    <h1>{{$titolo}}</h1>
 
 </body>
 </html>

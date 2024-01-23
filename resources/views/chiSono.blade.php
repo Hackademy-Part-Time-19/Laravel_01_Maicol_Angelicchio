@@ -9,6 +9,6 @@
     <a href="/">Home</a>
     <a href="/articoli">Articoli</a>
     <h1>CHI SONO</h1>
-    <p>Ciao mi chiamo Maicol e vengo da Modena</p>
+    <p>{{$descrizione}}</p>
 </body>
 </html>
